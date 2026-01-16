@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Programming Preview</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        p {
+            text-align: center;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .preview-img {
+            width: 55%;
+            max-height: 350px;
+            object-fit: cover;
+            border-radius: 9px;
+            margin: 21px auto;
+            display: block;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+
+        .preview-img:hover {
+            transform: scale(1.03);
+        }
+
+        .tech {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .tech span {
+            display: inline-block;
+            background: #eaeaea;
+            padding: 6px 12px;
+            margin: 5px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        .btn-back {
+            display: block;
+            width: fit-content;
+            margin: 0 auto;
+            padding: 10px 20px;
+            background: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        .btn-back:hover {
+            background: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Web Programming Project</h1>
+        <p>
+            This project is a website built using HTML, CSS, and JavaScript.
+            It features a responsive layout, clean UI design, and interactive
+            elements to enhance user experience.
+        </p>
+
+        <!-- Gambar Preview (klik untuk lihat besar) -->
+        <a href="web2.jpeg" target="_blank">
+            <img src="web2.jpeg" alt="Web Programming Preview" class="preview-img">
+        </a>
+
+        <!-- Teknologi -->
+        <div class="tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+        </div>
+
+        <!-- Tombol Kembali -->
+        <a href="projects.html" class="btn-back">← Back to Projects</a>
+    </div>
+
+</body>
+</html>
